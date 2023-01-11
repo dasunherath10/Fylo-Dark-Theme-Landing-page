@@ -1,0 +1,253 @@
+body{
+    background-color: #1C2230;
+    font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
+}
+
+.navbar-brand{
+    padding-left: 10%;
+}
+
+
+#navbarNav{
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.navbar-toggler{
+    color: white;
+    border: none;
+    padding-right: 10%;
+}
+
+#navbar-top{
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: #1C2230 ;
+}
+#navbarNav{
+    justify-content: flex-end;
+}
+
+#navbarNav{
+    font-size: 1.2rem;
+}
+
+
+/*intro*/
+
+#intro{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: url('images/bg-curvy-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+  
+}
+
+#intro-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#intro-title{
+    color: white;
+    font-size:3rem;
+    font-weight: 600;
+}
+
+.padding-1{
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.intro-id{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+
+}
+
+#intro-button{
+    width: 100%;
+    border-radius: 30px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: white;
+    background-image: linear-gradient(to right, #00c6ff 0%, #1675e9  51%, #00c6ff  100%);
+    background-size: 200% auto;
+    transition: 0.5s;
+    
+}
+
+
+#intro-button:hover {
+    background-position: right center; /* change the direction of the change here */
+    text-decoration: none;
+}
+ 
+
+  /* FEATURES SECTION*/
+
+.features{
+    background-color: #181F2B;
+}
+
+#features-section{
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+
+#feature-cards{
+    background-color: #181F2B;
+    border-color: #181F2B;
+    color: white;
+    padding-bottom: 40px;
+}
+
+#features-icon{
+    width: 20%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#features-iconX{
+    width: 15%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#feature-title{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+#feature-text{
+    text-align: center;
+}
+
+/* section-3 */
+
+.section-3{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#sect3-img{
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#sect-3-body{
+    color: white;
+ 
+}
+
+#sect-3-title{
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1;
+}
+
+/*TESTOMONIAL*/
+
+.testamonial{
+    background-color: #181F2B;
+    padding-left: 5%;
+    padding-right: 5%; 
+}
+
+#testo-card{
+    background-color: #21293C;
+    color: white;
+    margin-left:30px;
+    margin-top: 30px;
+    border-color: transparent;
+}
+
+#profile-img{
+    width: 10%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/*NEWSLETTER*/
+
+.newsletter{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#newsletter-card{
+    background-color: #21293C;
+    text-align: center;
+    margin-top: 100px;
+    color: white;
+    border-radius: 20px;
+}
+#NL-title{
+    margin-top: 30px;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+#NL-input{
+    border-radius: 30px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.nlcard-text{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#NL-submit{
+    border-radius: 30px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+/*FOOTER*/
+
+.footer{
+    background-color: #0C1524;
+    color: white;
+}
+
+#footer-row{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+#footer-icon{
+    width: 11%;
+    height: auto;
+}
+#footer-iconx{
+    width: 5%;
+    height: auto;
+}
+#footer-iconf{
+    width: 8%;
+    height: auto;
+}
+
+#foot-text{
+    line-height: 2.5;
+}
+
+.SM-icon:hover{
+    fill: rgba(154, 143, 255, 0.993);
+}
